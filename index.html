@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Kenny Yip</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/kenny-icon.png">
+
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+    </head>
+
+    <body>
+        <div class="container" style="background-color: white;">
+            <br>
+            <div class="my-nav">
+                <div id="my-title"><b><a href="index.html">Kenny Yip</a></b></div>
+
+                <div class="my-nav-content">
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="#my-experience">Work Experience</a></li>
+                        <li><a href="#my-projects">Projects</a></li>
+                        <li><a href="">Art</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <br>
+            <div class="my-about">
+
+                <div class="row">
+                    <div class="col s4 push-s8">
+                        <img src="images/kenny.png" alt="kenny-logo" id="kenny-logo">
+                    </div>
+
+                    <div class="col s8 pull-s4">
+                        <div class="my-summary">
+                            <p>
+                                Hi there! I am a recent graduate of New York University's Tandon School of Engineering with a B.S in Computer Science. 
+                            </p>
+                            <p>
+                                Feel free to look around! 
+                            </p>
+
+                            <p style="float:left;"> 
+                                <a class="btn-floating waves-effect waves-light red" href="https://www.youtube.com/channel/UCdZQlE28wAgm6SKX_u9_L-Q" target="_blank" style="color: black;"><i class="fab fa-youtube-square fa-2x"></i></a> 
+                                <a class="btn-floating waves-effect waves-light blue" href="https://www.linkedin.com/in/kenny-yip-1764a5134/" target="_blank" style="color: black;"><i class="fab fa-linkedin fa-2x"></i></a>
+                            </p>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="my-header">Skills</div>
+                <ul>
+                    <li><b>Coding: </b>
+                         Python, Ruby, Java, C++, HTML, CSS, JavaScript, TypeScript
+                    </li>
+                    <li><b>Development: </b>
+                        Django, Flask, Node.js, Express, React, Rails, MySQL, MongoDB, Materialize, Docker, Git
+                    </li>
+                    <li><b>Design: </b> 
+                        Adobe [Animate, Photoshop], Autodesk <a href="https://www.youracclaim.com/users/kenny-yip/badges" target="_blank">(certified user)</a> [AutoCAD, Revit, Inventor]
+                    </li>
+                    <li><b>Languages: </b>
+                        Native Level [English, Spanish, Cantonese], Advanced Italian
+                    </li>
+                </ul>
+
+                <!-- <table style="width: auto;">
+                    <tr>
+                        <td><b>Coding</b></td>
+                        <td>Python, Ruby, Java, C++, HTML, CSS, JavaScript, TypeScript</td>
+                    </tr>
+                    <tr>
+                        <td><b>Development</b></td>
+                        <td>Django, Flask, Node.js, Express, React, Rails, MySQL, MongoDB, Materialize, Bootstrap, Docker, Git</td>
+                    </tr>
+                    <tr>
+                        <td><b>Design</b></td>
+                        <td>Adobe [Animate, Photoshop] &nbsp;  Autodesk <a href="https://www.youracclaim.com/users/kenny-yip/badges" target="_blank">(certified user)</a> [AutoCAD, Revit, Inventor]</td>
+                    </tr>
+                    <tr>
+                        <td><b>Languages</b></td>
+                        <td>English, Spanish, Cantonese, Italian</td>
+                    </tr>
+                </table> -->
+            </div>
+
+
+
+            <br>
+            <div id="my-experience">
+                <div class="my-header">Work Experience</div>
+
+                
+                <ul class="collapsible expandable" style="border: none; box-shadow: none!important;" >
+                    <li>
+                        <div class="collapsible-header my-highlight" style="border: none;" onclick="changeKenny('images/kenny-boeing.png')">
+                            <table>
+                                <tr>
+                                    <td><img src="images/boeing-logo.png" alt="boeing-logo" id="boeing-logo"></td>
+                                    <td>Cloud Platform Intern</td>
+                                    <td>Jun 2019 - Aug 2019</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="collapsible-body" style="border: none;">
+                            <div class="my-work-entry-content">
+                                <ul>
+                                    <li>• Wrote Python scripts to analyze and extract weekly reports, and removed 500+ inactive apps from Cloud Foundry</li>
+                                    <li>• Built user interface with Flask to run scripts with selected inputs, store results in mySQL, and display using datatables</li>
+                                    <li>• Pair programmed in React, Sass for front-end, and Spring Boot for backend with another team for a week</li>
+                                    <li>• Boeing Production Systems Hackathon 2nd Place winner, designed Python GUI simulator to monitor 3D print progress </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="collapsible-header my-highlight" style="border: none;" onclick="changeKenny('images/kenny-ibm.png')">
+                            <table>
+                                <tr>
+                                    <td><img src="images/ibm-logo.png" alt="ibm-logo" id="ibm-logo"></td>
+                                    <td>Software Design Intern</td>
+                                    <td><span class="my-dates">Jun 2018 - Aug 2018</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="collapsible-body">
+                            <div class="my-work-entry-content" style="border: none;">
+                                <ul>
+                                    <li>• Developed eLearning modules in a team of 6 for IBM’s Digital Nation Africa project for 25 million+ students in Africa</li>
+                                    <li>• Wrote a 200+ page book on Python with 100+ problems and transferred contents to IBM developerWorks and Jupyter</li>
+                                    <li>• Collaborated on course interface design using HTML, CSS, JavaScript and deployed on IBM BlueMix/Cloud</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="collapsible-header my-highlight" style="border: none;" onclick="changeKenny('images/kenny-nyu.png')">
+                            <table>
+                                <tr>
+                                    <td><img src="images/nyu-logo.png" alt="nyu-logo" id="nyu-logo"></td>
+                                    <td>Head Teaching Assistant</td>
+                                    <td><span class="my-dates">Feb 2018 - May 2020</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="collapsible-body" style="border: none;">
+                            <div class="my-work-entry-content">
+                                <ul>
+                                    <li>• Taught two 3-hour lab classes and held two review sessions weekly for Data Structures and Algorithms in Python</li>
+                                    <li>• Redesigned topics and contributed 120 pages of assignments covering 14 weeks of material for 250+ students</li>
+                                    <li>• Published Chrome extension of 30+ users, built with JavaScript, which reduced grading time by 5 hours per week</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <br>
+            <div id="my-projects">
+                <div class="my-header">Projects</div>
+                <br>
+                <!-- Projects -->
+                <div class="row">
+
+                    <a href="espaliano.html">
+                        <!-- Espaliano -->
+                        <div class="col s12 m6 l4">
+                            <div class="card hoverable waves-effect waves-light" style = "width: 100%; height: 100%;">
+                                <div class="card-image">
+                                    <img src="images/espaliano-sample.png">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Espaliano</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- Candy Crush -->
+                    <a href="candycrush.html">
+                        <div class="col s12 m6 l4">
+            
+                            <div class="card hoverable waves-effect waves-light" style = "width: 100%; height: 100%;">
+                                <div class="card-image">
+                                    <img src="images/candycrush-sample.png">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Candy Crush</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+    
+                    <!-- Maplestory Omok -->
+                    <a href="maplestoryomok.html">
+                        <div class="col s12 m6 l4">
+            
+                            <div class="card hoverable waves-effect waves-light" style = "width: 100%; height: 100%;">
+                                <div class="card-image">
+                                    <img src="images/maplestoryomok-sample.png">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Maplestory Omok</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+        
+                    <!-- Super Mario Bros-->
+                    <a href="supermariobros.html">
+                        <div class="col s12 m6 l4">
+            
+                            <div class="card hoverable waves-effect waves-light" style = "width: 100%; height: 100%;">
+                                <div class="card-image">
+                                    <img src="images/supermariobros-sample.png">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Super Mario Bros</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- Super Mario Run -->
+                    <a href="supermariorun.html" >
+                        <div class="col s12 m6 l4">
+                            <div class="card hoverable waves-effect waves-light" style = "width: 100%; height: 100%;">
+                                <div class="card-image">
+                                    <img src="images/supermariorun-sample.png">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Super Mario Run</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+        
+                    <!-- Pac Man -->
+                    <a href="pacman.html">
+                        <div class="col s12 m6 l4">
+                            <div class="card hoverable waves-effect waves-light" style = "width: 100%; height: 100%;">
+                                <div class="card-image">
+                                    <img src="images/pacman-sample2.png">
+                                    
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Pac Man</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+    
+                    
+                </div>
+            </div>
+            
+
+            <img src="images/nyc-hongkong.png" style="width: 100%; opacity: 0.12;">
+            <p class="my-copyright">Kenny Yip &copy; 2020</p>
+
+        </div>
+
+    </body>
+        
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.collapsible');
+            var instances = M.Collapsible.init(elems, {accordion: false});
+        });
+
+        function changeKenny(img){
+            var pic = document.getElementById("kenny-logo");
+            pic.src = img;
+        }
+    </script>
+
+</html>
