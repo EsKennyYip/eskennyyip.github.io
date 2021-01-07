@@ -53,6 +53,7 @@ img {
     width: min(35vh, 35vw);
     height: min(35vh, 35vw);
     border: whitesmoke 1px solid;
+    box-shadow: 1% 1% grey;
     float: right;
 }
 
