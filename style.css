@@ -50,8 +50,8 @@ img {
 }
 
 #kenny-logo{
-    width: min(30vh, 30vw);
-    height: min(30vh, 30vw);
+    width: min(35vh, 35vw);
+    height: min(35vh, 35vw);
     border: whitesmoke 1px solid;
     float: right;
 }
