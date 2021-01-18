@@ -44,7 +44,7 @@ img {
 }
 
 .code-tags span{
-    font-family: 'Consolas';
+    font-family: Consolas, monaco, monospace;
     padding: 2px;
     background-color: #b7e5c4;
     background-color: whitesmoke;
