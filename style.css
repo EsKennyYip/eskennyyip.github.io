@@ -70,6 +70,7 @@ img {
 #kenny-logo{
     width: min(35vh, 35vw);
     height: min(35vh, 35vw);
+    margin-bottom: 10px;
     border: whitesmoke 1px solid;
     box-shadow: min(1vh, 1vw) min(1vh, 1vw) whitesmoke;
     float: right;
