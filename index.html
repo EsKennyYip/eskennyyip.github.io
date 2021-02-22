@@ -341,24 +341,30 @@
         
     <script>
         
-        window.onload = function() {
+        function adjustSize(){
+            var kenny_logo = document.getElementById("kenny-logo");
+            var kenny_logo_col = document.getElementById("kenny-logo-col");
+            var my_summary_col = document.getElementById("my-summary-col");
+
             if (window.innerWidth <= 570){
-                var kenny_logo = document.getElementById("kenny-logo");
                 kenny_logo.style.height = "88vw";
                 kenny_logo.style.width = "88vw";
-                
-                var kenny_logo_col = document.getElementById("kenny-logo-col");
-                var my_summary_col = document.getElementById("my-summary-col");
-
-                kenny_logo_col.classList.remove("push-s7");
-                kenny_logo_col.classList.remove("s5");
-                kenny_logo_col.classList.remove("col");
-
-                my_summary_col.classList.remove("push-s5");
-                my_summary_col.classList.remove("s7");
-                my_summary_col.classList.remove("col");
+                kenny_logo_col.className = "";
+                my_summary_col.className = "";
+            } else {
+                kenny_logo.style.width = "min(35vh, 35vw)";
+                kenny_logo.style.height = "min(35vh, 35vw)";
             }
         }
+
+        window.onload = function() {
+            adjustSize();
+        }
+
+        window.addEventListener('resize', function() {
+            adjustSize();
+        });
+        
         document.addEventListener('DOMContentLoaded', function() {
             var elems = document.querySelectorAll('.collapsible');
             var instances = M.Collapsible.init(elems, {accordion: false});
