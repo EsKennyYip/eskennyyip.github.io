@@ -28,8 +28,8 @@ hr {
 }
 
 iframe{
-    width: max(37.3vw, 360px);
-    height: max(22.7vw, 150px);
+    width: max(37.3vw, 324px);
+    height: max(22.7vw, 135px);
 }
 
 img {
