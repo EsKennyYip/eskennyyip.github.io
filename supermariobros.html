@@ -121,31 +121,33 @@
             <div class="my-header">Implementation</div>
             <div>
                 </p>
-                    <li>
-                        Mario and Luigi as playable characters. Mario/Luigi can change between between mini, normal, and fire flower forms. 
-                        Whenever Mario/Luigi touches an enemy from the side or below, he decreases by one state. 
-                        After that, an invincibility timer of 1 second is applied via another thread to allow the player to escape.
-                        The invincibility star is also available, which gives Mario/Luigi invincibility for 15 seconds, knocking any enemy over.
-                    </li> <br>
-                    <li>
-                        Goomba, Koopa, Parakoopa, Piranha, Bowser as enemies.
-                        If Mario/Luigi steps on a - goomba from above, the goomba will be knocked out; 
-                        koopa/parakoopa from above, the koopa will hide in its shell, which can then be kicked.
+                    <ul>
+                        <li>
+                            Mario and Luigi as playable characters. Mario/Luigi can change between between mini, normal, and fire flower forms. 
+                            Whenever Mario/Luigi touches an enemy from the side or below, he decreases by one state. 
+                            After that, an invincibility timer of 1 second is applied via another thread to allow the player to escape.
+                            The invincibility star is also available, which gives Mario/Luigi invincibility for 15 seconds, knocking any enemy over.
+                        </li> <br>
+                        <li>
+                            Goomba, Koopa, Parakoopa, Piranha, Bowser as enemies.
+                            If Mario/Luigi steps on a - goomba from above, the goomba will be knocked out; 
+                            koopa/parakoopa from above, the koopa will hide in its shell, which can then be kicked.
 
-                        Piranha only appears in pipes. Each piranha exits and enters the pipe for 5 seconds at a time, which is done via threading.
+                            Piranha only appears in pipes. Each piranha exits and enters the pipe for 5 seconds at a time, which is done via threading.
 
-                        Bowser appears as the final boss in world 1-4 and can only be knocked out when Mario/Luigi reaches the axe to cut the bridge Bowser is standing on.
-                        Every 6 seconds, Bowser spits out a fire.
+                            Bowser appears as the final boss in world 1-4 and can only be knocked out when Mario/Luigi reaches the axe to cut the bridge Bowser is standing on.
+                            Every 6 seconds, Bowser spits out a fire.
 
-                        All enemies except Bowser can be knocked over by Mario/Luigi with the fire flower.
-                    </li> <br>
-                    <li>
-                        Additional features in all 4 levels are applied. 
-                        Secret underground pipe maps are also included in w1-1 and w1-2.
-                        w1-2, w1-3, w1-4 each have moving vertical/horizontal platforms.
-                        For collision detection, a rectangular hitbox is applied around each entity.
-                        In w1-4, the firebar rotates via affine transformation and uses a rotating line as a hitBox in place of a rectangle.
-                    </li>
+                            All enemies except Bowser can be knocked over by Mario/Luigi with the fire flower.
+                        </li> <br>
+                        <li>
+                            Additional features in all 4 levels are applied. 
+                            Secret underground pipe maps are also included in w1-1 and w1-2.
+                            w1-2, w1-3, w1-4 each have moving vertical/horizontal platforms.
+                            For collision detection, a rectangular hitbox is applied around each entity.
+                            In w1-4, the firebar rotates via affine transformation and uses a rotating line as a hitBox in place of a rectangle.
+                        </li>
+                    </ul>
                 </p>
             </div>
 
