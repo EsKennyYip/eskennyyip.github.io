@@ -73,7 +73,7 @@ img {
     margin-bottom: 10px;
     border: whitesmoke 1px solid;
     box-shadow: min(1vh, 1vw) min(1vh, 1vw) whitesmoke;
-    float: right;
+    float: left;
 }
 
 /* Nav Bar */
